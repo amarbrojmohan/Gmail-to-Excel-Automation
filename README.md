@@ -74,3 +74,5 @@ Each row will contain:
 * **From (Sender)** 
 * **Subject**
 * **Date**
+
+**Once running, the tool will continue updating your Excel file with each new batch of emails — no extra steps needed.**
