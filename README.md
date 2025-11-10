@@ -55,7 +55,7 @@ pip install -r requirements.txt
 1. Go to Google Cloud Console → Credentials
 2. Create a new **OAuth 2.0 Client ID**
   * Application type: **Desktop App**
-3. Download the _credentials.json_ file
+3. Download the `credentials.json`  file
 → Save it in your project root directory (same folder as the script)
 4. Add your Gmail address as a Test User under
 OAuth consent screen → Test users.
@@ -65,7 +65,7 @@ OAuth consent screen → Test users.
 python gmail_to_excel.py
 ```
 * On first run, a browser window will open for Google sign-in.
-* Approve access to your Gmail (this creates token.json automatically).
+* Approve access to your Gmail (this creates `token.json` automatically).
 * The script then reads your emails and generates:
 ```bash
 gmail_emails.xlsx
